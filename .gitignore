@@ -1,0 +1,10 @@
+# Directories
+dist/
+.vscode/
+node_modules/
+
+# Files
+.DS_Store
+yarn.lock
+pnpm-lock.yaml
+package-lock.json

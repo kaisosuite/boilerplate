@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(30 41 59);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.infoGrid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+img {
+  height: 32px;
+  width: auto;
+  margin-top: 5px;
+  border-radius: 10%;
+  -webkit-user-drag: none;
+}
